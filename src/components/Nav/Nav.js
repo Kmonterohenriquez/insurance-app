@@ -1,17 +1,22 @@
-import React from 'react'
-import './Nav.sass'
+import React from "react";
+import "./Nav.sass";
+import logo from "../../img/logo.png";
 const Nav = () => {
-    return (
-        <div className='Nav'>
-            <img src="" alt="" className="logo"/>
-            <nav>
-                <ul>
-                    <li className="nav-link">For you & family</li>
-                    <li className="nav-link">For Business</li>
-                </ul>
-            </nav>
+  return (
+    <header className="Nav ">
+      <div className="Nav-container container">
+        <div className="img-container">
+          <img src={logo} alt="logo" className="logo" />
         </div>
-    )
-}
+        <nav>
+          <ul>
+            <li>For you & family</li>
+            <li>For Business</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  );
+};
 
-export default Nav
+export default Nav;
