@@ -11,7 +11,7 @@ const Nav = () => {
         <nav>
           <ul>
             <li>For you & family</li>
-            <li>For Business</li>
+            <li className='business-link'>For Business</li>
           </ul>
         </nav>
       </div>

@@ -1,4 +1,6 @@
 .Nav
+    border-bottom: 1px solid #e3e3e3
+    
     &-container
 
         display: flex
@@ -7,5 +9,14 @@
     nav ul 
         display: flex 
         li 
+            font-size: 1rem
             list-style: none 
             padding: 10px
+            cursor: pointer
+            &:first-child
+                font-weight: bold
+        .business-link
+            color: #a7a6a6
+            transition: color .4s
+            &:hover 
+                color: darken(#bdbdbd , 20%)
