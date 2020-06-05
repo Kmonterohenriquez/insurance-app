@@ -7,11 +7,11 @@ const Info = () => {
     <div className="Info">
       <img src={family_pic} alt="health family illustration" className="bg" />
       <div className="top">
-        <h1>A new take on insurance</h1>
-        <h3>Great for individuals and business</h3>
+        <h1 className="title">A new take on insurance</h1>
+        <h3 className="sub-title">Great for individuals and business</h3>
       </div>
       <div className="Info-container container">
-          <div className="left-side"></div>
+        <div className="left-side"></div>
         <div className="right-side">
           <h2>
             Monotonectally deploy seamless data and resource maximizing systems.
