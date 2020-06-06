@@ -5,7 +5,7 @@ import Showcase from "./components/Showcase/Showcase";
 import Info from "./components/Info/Info";
 import Plans from "./components/Plans/Plans";
 import Steps from "./components/Steps/Steps";
-
+import Quote from "./components/Quote/Quote";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Info />
       <Plans />
       <Steps />
+      <Quote />
     </div>
   );
 }
