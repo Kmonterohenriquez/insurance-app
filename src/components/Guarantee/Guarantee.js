@@ -3,7 +3,7 @@ import "./Guarantee.sass";
 import shield from "../../img/shield-yellow.svg";
 const Guarantee = () => {
   return (
-    <div className="Guarantee">
+    <div className="Guarantee ">
       <img src={shield} alt="yellow shield" />
       <div className="left-side">
         <h1>100% Satisfaction Guarantee</h1>
@@ -13,7 +13,7 @@ const Guarantee = () => {
         </p>
       </div>
       <div className="right-side">
-        <button>get a free Quote</button>
+        <button>Get a free Quote</button>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import Info from "./components/Info/Info";
 import Plans from "./components/Plans/Plans";
 import Steps from "./components/Steps/Steps";
 import Quote from "./components/Quote/Quote";
+import Guarantee from "./components/Guarantee/Guarantee";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Plans />
       <Steps />
       <Quote />
+      <Guarantee />
     </div>
   );
 }
