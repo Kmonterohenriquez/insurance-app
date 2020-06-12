@@ -1,9 +1,11 @@
 import React from "react";
 import "./Pricing.sass";
 import tick from '../../img/tick.png'
+import bg from '../../img/bg-image4.png'
 const Pricing = () => {
   return (
     <div className="Pricing">
+      <img src={bg} alt="background" className="bg"/>
       <h1 className="title">Honest Pricing</h1>
       <p className="sub-title">Simple & honest pricing. No hidden fees.</p>
       <div className="Pricing-grid-container">
@@ -57,7 +59,7 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-      <p className="Pricing-note">*Prices shown per month if paid annually</p>
+      <p className="Pricing-note sub-title">*Prices shown per month if paid annually</p>
     </div>
   );
 };
