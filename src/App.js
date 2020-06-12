@@ -7,6 +7,7 @@ import Plans from "./components/Plans/Plans";
 import Steps from "./components/Steps/Steps";
 import Quote from "./components/Quote/Quote";
 import Guarantee from "./components/Guarantee/Guarantee";
+import Pricing from "./components/Pricing/Pricing";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Steps />
       <Quote />
       <Guarantee />
+      <Pricing />
     </div>
   );
 }

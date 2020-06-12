@@ -1,0 +1,106 @@
+.Pricing 
+    img 
+        height: 30px
+        margin-right: 8px
+    .sub-title
+        margin-bottom: 100px
+    &-grid-container
+        display: grid 
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+        max-width: 1000px
+        margin: 0 auto
+        align-items: center
+
+        
+        .box 
+            display: flex 
+            flex-direction: column
+            align-items: center
+            box-shadow: 0px 0px 6px 1px #3838382a
+            width: 290px
+            border-radius: 5px
+
+                       
+            h1 
+                text-transform: uppercase 
+                font-size: 1rem
+                font-weight: 500
+                letter-spacing: 1px
+                text-align: center
+                margin-bottom: 30px
+            .price-box
+                display: flex 
+                flex-direction: column
+                align-items: center
+                width: 100%
+                .circle
+                    height: 100px
+                    width: 100px 
+                    display: flex 
+                    justify-content: center 
+                    align-items: center 
+                    border-radius: 50%
+                    font-size: 2.5rem
+                    margin-bottom: 30px
+                    font-weight: bolder
+                    span 
+                            font-size: 1.2rem
+                .info 
+                    p 
+                        color: #878D9D
+                        font-weight: 500
+                        margin-bottom: 20px
+                        display: flex 
+                        align-items: center 
+                        
+            button 
+                margin-top: 10px
+                padding: 10px 20px 
+                padding: .9rem 1.5rem
+                border-style: none
+                color: white
+                border-radius: 5px
+                font-size: .9rem
+                cursor: pointer
+                transition: background .4s
+                font-weight: 500
+                letter-spacing: .5px
+            
+.basic
+    padding: 25px 25px 25px
+    h1 
+        color: #4BD3AA
+    .circle 
+        background: #DBFDD3 
+        color: #B6D2B1
+    button 
+        background: #4BD3AA
+        border-color: #4BD3AA
+        box-shadow: 0 4px 37px -11px #4BD3AA
+.professional
+    background: white
+    transform: scale(1.1)
+    padding: 25px 10px 25px
+    h1 
+        color: #FEAE8C
+    .circle
+        background: #FEAE8C
+        color: white
+    .info 
+        font-size: .9rem
+    button
+        background: #FEAE8C
+        border-color: #FEAE8C
+        box-shadow: 0 4px 37px -11px #FEAE8C
+
+.premium
+    padding: 25px 25px 25px
+    h1 
+        color: #478DFF
+    .circle 
+        background: #AFF3FF 
+        color: #93CAD4
+    button 
+        background: #478DFF
+        border-color: #478DFF
+        box-shadow: 0 4px 37px -11px #478DFF
