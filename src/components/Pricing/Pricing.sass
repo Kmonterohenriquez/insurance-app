@@ -10,24 +10,30 @@
         max-width: 1000px
         margin: 0 auto
         align-items: center
-
         
-        .box 
+        .box
+            padding: 25px 25px 25px
             display: flex 
             flex-direction: column
             align-items: center
             box-shadow: 0px 0px 6px 1px #3838382a
-            width: 290px
+            width: 300px
             border-radius: 5px
 
-                       
+            #save 
+                background: #FFF4B4
+                color: #E8CB79
+                padding: 5px
+                border-radius: 5px
+                font-size: .8rem
+                margin-bottom: 25px
             h1 
                 text-transform: uppercase 
                 font-size: 1rem
                 font-weight: 500
                 letter-spacing: 1px
                 text-align: center
-                margin-bottom: 30px
+                margin-bottom: 5px
             .price-box
                 display: flex 
                 flex-direction: column
@@ -67,7 +73,6 @@
                 letter-spacing: .5px
             
 .basic
-    padding: 25px 25px 25px
     h1 
         color: #4BD3AA
     .circle 
@@ -77,10 +82,11 @@
         background: #4BD3AA
         border-color: #4BD3AA
         box-shadow: 0 4px 37px -11px #4BD3AA
+        &:hover 
+            background: darken(#4BD3AA,10%)
 .professional
     background: white
-    transform: scale(1.1)
-    padding: 25px 10px 25px
+    z-index: 3
     h1 
         color: #FEAE8C
     .circle
@@ -92,9 +98,10 @@
         background: #FEAE8C
         border-color: #FEAE8C
         box-shadow: 0 4px 37px -11px #FEAE8C
+        &:hover 
+            background: darken(#FEAE8C,10%)
 
 .premium
-    padding: 25px 25px 25px
     h1 
         color: #478DFF
     .circle 
@@ -104,3 +111,5 @@
         background: #478DFF
         border-color: #478DFF
         box-shadow: 0 4px 37px -11px #478DFF
+        &:hover 
+            background: darken(#478DFF,10%)

@@ -25,6 +25,7 @@ const Pricing = () => {
         <div className="Pricing-grid-container">
           <div className="box professional">
             <h1>Professional</h1>
+            <h6 id='save'>Save 20%</h6>
             <div className="price-box">
               <div className="circle">
                 <span>$</span> 19
