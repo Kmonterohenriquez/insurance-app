@@ -8,6 +8,7 @@ import Steps from "./components/Steps/Steps";
 import Quote from "./components/Quote/Quote";
 import Guarantee from "./components/Guarantee/Guarantee";
 import Pricing from "./components/Pricing/Pricing";
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Quote />
       <Guarantee />
       <Pricing />
+      <Footer />
     </div>
   );
 }
