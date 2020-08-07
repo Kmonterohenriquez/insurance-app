@@ -7,7 +7,7 @@ const Showcase = () => {
     <div className="Showcase">
       <div className="Showcase-container container">
         <div className="left-side">
-          <h3>Hello, We are fincorp</h3>
+          <h3>Hello, We are Electrum</h3>
           <h1>Insurance <br/> made easy.</h1>
           <button>Get your free Quote</button>
         </div>
